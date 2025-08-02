@@ -1,7 +1,10 @@
+import Header from "./components/Header"
+
+
 function App() {
   return (
     <div className="todoapp">
-      <h1>Задачи</h1>
+      <Header />
       <section>
         <input className="todo-input" placeholder="Что должно быть сделано?" />
         <ul className="todo-list">
